@@ -152,5 +152,10 @@ border: 2px #fff solid;
 }
 
 .paralax{
-  background:url('http://www.studiujnaukrainie.pl/images/cources-bg.jpg');
+  background:url(http://www.studiujnaukrainie.pl/images/cources-bg.jpg);
+  height:500px;
+  background-color: rgba(0, 0, 0, 0.6);
+
 }
+
+.
