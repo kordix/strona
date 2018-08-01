@@ -152,10 +152,52 @@ border: 2px #fff solid;
 }
 
 .paralax{
-  background:url(http://www.studiujnaukrainie.pl/images/cources-bg.jpg);
-  height:500px;
-  background-color: rgba(0, 0, 0, 0.6);
 
+  background:url(http://www.studiujnaukrainie.pl/images/cources-bg.jpg);
+
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.paralaxitem{
+  position:relative;
+  background:#6495ED;
+  opacity:1;
+  display:flex;
+  justify-content: center;
+  border:1px black solid;
+  width:180px;
+  height:220px;
+}
+
+.paralaxitemdown{
+  position:absolute;
+  width:100%;
+  height:40px;
+  background:green;
+  bottom:0px;
+}
+
+.paralax h2 {
+  z-index:1;
+  padding-top:15px;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.paralaxitem figure {
+  position:absolute;
+  top:0px;
+  left:0px;
+
+  z-index:0;
+  opacity:0.7;
+}
+
+.centerr{
+  padding-bottom:10px;
+  display:flex;
+  justify-content: center;
 }
 
 .
