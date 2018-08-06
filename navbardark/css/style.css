@@ -345,3 +345,37 @@
     color:white;
     border-right:2px white;
 }
+
+
+/*komentarze*/
+.commentcarouselh1{
+  display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  width:200px;
+  color:white;
+  padding-top:30px;
+}
+
+.commentquote{
+  display:block;
+  position:absolute;
+  left:30px;
+  width:100px;
+  color:white;
+  padding-top:30px;
+  font-size:50px;
+}
+
+.commentquote2{
+  display:block;
+  position:absolute;
+  right:30px;
+  bottom:30px;
+  width:100px;
+  color:white;
+  font-size:50px;
+}
