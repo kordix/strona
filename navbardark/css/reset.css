@@ -7,3 +7,10 @@ div{
     margin:0px;
     padding:0px;
 }
+
+.container-fluid{
+    margin:0px;
+    padding:0px;
+    padding-right:0px;
+    padding-left:0px;
+}

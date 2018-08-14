@@ -348,6 +348,12 @@
 
 
 /*komentarze*/
+#commentsection{
+    background:#424bf4;
+
+}
+
+
 .commentcarouselh1{
   display:block;
   position:absolute;
