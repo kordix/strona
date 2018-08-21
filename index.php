@@ -1,3 +1,4 @@
+<?php include 'formularz.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -388,6 +389,43 @@
     </div>
 </div>
 </section>
+
+<section>
+    <div class="container">
+        <div class="row">
+<div class="col-md-5 center2"><h1>Kontakt z nami</h1><p class="contact">Numer telefonu: XXX XXX XXX</p><p>E-mail: XXX@gmail.com</p></div>
+<div class="col-md-5">
+    <h1 class="">Formularz kontaktowy</h1>
+    <form class=""  method="post">
+
+        <div class="form-group">
+        <input class="form-control" type="text" placeholder="Imię i nazwisko" name="name">
+        </div>
+        <div class="form-group">
+        <input class="form-control" type="text" placeholder="Telefon" name="phone">
+        </div>
+        <div class="form-group">
+        <input class="form-control" type="text" placeholder="E-mail" name="mail">
+        </div>
+        <div class="form-group">
+
+        <textarea class="form-control" style="height:100px" type="text" placeholder="Wiadomość"></textarea>
+
+        </div>
+        <div class="form-group">
+        <button type="submit" name="button"  class="btn btn-primary">Wyślij</button>
+    </div>
+
+        <div class="g-recaptcha" data-sitekey="6LdBMmMUAAAAAOOQ1BUNsjJ1onn4s__Es7TKFZBm"></div>
+        <input type="submit" name="submit" value="send">
+    </form>
+
+</div>
+</div>
+</div>
+</section>
+
+
 
 
 
